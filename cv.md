@@ -1,4 +1,6 @@
-# Vladislav Tyulin
+# Vladislav Tyulin  
+
+<img src="ava.jpeg" alt="avatar" width="100" height="133">
 
 ### Frontend developer intern
 
@@ -39,7 +41,7 @@ After two years of working as engine engineer, I decided to switch field of work
 
 ## Languages:
 
-- English - ![eng test result](./eng_test.png)
+- English - <img src="eng_test.png" alt="eng test result" with="138" height="54"/>
 
 - Russian - Native
 - Ukrainian - Advanced
