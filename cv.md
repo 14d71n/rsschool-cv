@@ -31,6 +31,28 @@ After two years of working as engine engineer, I decided to switch field of work
 
 ## Code example:
 
+"All Inclusive?" KATA from CODEWARS:
+
+    function containAllRots(strng, arr) {
+        if(strng === "") {
+            return true
+        }
+
+        let currentStrng = strng;
+        const compArr = [currentStrng];
+        for (let i = 0; i < currentStrng.length - 1; i++) {
+            const newStrArr = [...currentStrng];
+            const char = currentStrng[0];
+            newStrArr.splice(0, 1);
+            newStrArr.push(char);
+            currentStrng = newStrArr.join('');
+            compArr.push(currentStrng);
+        }
+        const result = compArr.every(elem => arr.includes(elem));
+        return result;
+    }
+
+
 ## Education:
 
 - Specialist, Kazan National Research Technical University named after A.N.Tupolev, Kazan
