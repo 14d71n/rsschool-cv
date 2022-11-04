@@ -1,2 +1,1 @@
-# rsschool-cv
-rssschool repositry
+https://14d71n.github.io/rsschool-cv/
